@@ -1,0 +1,23 @@
+{
+  "name": "d12feed",
+  "version": "1.0.0",
+  "description": "A simple tool to statically generate podcast feed.",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc app.ts",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "podcast",
+    "feed",
+    "typescript"
+  ],
+  "author": "Atakan DULKER",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^6.0.107",
+    "@types/podcast": "^0.1.28",
+    "npm": "^6.0.0",
+    "podcast": "^1.1.0"
+  }
+}
